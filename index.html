@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="imagem">
+
+            </div>
+            <div class="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <form action="login.php" method="post">
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            mail
+                            </span>
+                        
+                        <input type="email" name="login" id="ilogin" placeholder="Seu email" required autocomplete="email" maxlength="30">
+                        <label for="ilogin"><ins>login</ins></label>
+
+                    </div>
+                    <div class="campo">
+                        <span class="material-symbols-outlined">
+                            lock
+                            </span>
+                        
+                        <input type="password" name="senha" id="isenha" placeholder="senha" minlength="8" maxlength="20" required
+                        autocomplete="current-password">
+                        <label for="isenha"><ins>senha</ins></label>
+
+                    </div>
+                    <input type="submit" value="entrar">
+                    <a class="botao" href="htmls/esqueci.html">Esqueci a senha <span class="material-symbols-outlined">
+                      key
+                    </span></a>
+                    
+                </form>
+            </div>
+        </section>
+    </main>
+    
+</body>
+</html>
