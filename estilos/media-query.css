@@ -8,13 +8,13 @@
 
     .login {
         width: 80vw;
-        height: 330px;
+        height: 380px;
     }
 
     .login > .imagem {
         float: left;
         width: 30%;
-        height: 96%;
+        height: 95%;
         border-radius: 10px 0px 0px 10px;
         background-position: center;
         padding: 10px;
@@ -38,7 +38,7 @@
     
     .login {
         width: 950px;
-        height: 400px;
+        height: 430px;
     }
 
     .login > .imagem {
