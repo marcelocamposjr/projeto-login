@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/new.css">
+    <title>Nova conta</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="new">
+                <h1>Olá seja Bem vindo !!</h1>
+                <p>Vamos criar sua conta?</p>
+                <form action="cadastro.php" method="post">
+                    <label for="iemail">Email:</label>
+                    <input type="email" name="email" id="iemail" required placeholder="Seu email" autocomplete="email" minlength="10" max="30">
+                    
+                    <label for="isenha">Nova senha:</label>
+                    <input class="inputpassword" type="password" name="senha" id="isenha" required autocomplete="new-password" minlength="6" maxlength="20"
+                    placeholder="Nova senha">
+                    
+                    <input class="submit" type="submit" value="Criar Conta">
+                </form>
+
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>
