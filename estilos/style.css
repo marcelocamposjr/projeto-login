@@ -52,12 +52,12 @@ main {
     background: #5f2c82 url(../imagens/pexels-damon-hall-1705254.jpg) no-repeat;
     height: 200px;
     background-size: cover;
-
 }
 
 .login > .formulario {
     display: block;
     padding: 10px;
+    
 }
 
 .formulario > h1 {
@@ -67,6 +67,7 @@ main {
 
 .formulario > p {
     font-size: 0.8em;
+    
 }
 
 form > .campo {
